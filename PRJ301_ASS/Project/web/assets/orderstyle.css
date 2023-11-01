@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+   
+}
+.btn-nav{
+    margin: 0 10px;
+}
+.search{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* css content */
+.content{
+    margin: 10px 400px;
+}
+.content-header{
+    position: relative;
+    margin: 10px 0;
+    
+}
+.content .title{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+}
+.content .go-back{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: red;
+    font-weight: bolder;
+
+}
+.content-product, .content-footer{
+    position: relative;
+
+    border-radius: 10px ;
+    box-shadow: 0px 3px 12px 6px #ccc;
+    margin: 0;
+    padding: 5px;
+    margin: 20px 0;
+}
+.content-close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 1;
+}
+.content-close:hover{
+    cursor: pointer;
+}
+.product-price {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.product-quantity{
+    display: flex;
+}
+.product-quantity h6{
+    margin-right: 10px;
+}
+.product-quantity a,
+.product-quantity input{
+    border: 1px solid #ddd;
+    width: 30px;
+    text-align: center;
+}
+.product-about{
+    background-color: #F6F6F6;
+    border-radius: 10px ;
+    padding: 10px;
+}
+.content-footer{
+    margin: 35px 0;
+}
+.content-footer .total{
+    text-align: right;
+}
+.content-footer .btn-submit{
+    width: 100%;
+}
+.content-footer .btn-submit button,
+.content-footer .btn-submit a{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
